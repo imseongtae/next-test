@@ -1,0 +1,65 @@
+/* customized reset css
+   v1.2 | 20210619
+   License: none (public domain)
+   created by haemil
+*/
+
+html {
+  /* font-family: "Noto Sans KR", helvetica, "Apple SD Gothic Neo", sans-serif; */  
+  font-family: 'Malgun Gothic', '맑은 고딕', helvetica, "Apple SD Gothic Neo", sans-serif;
+  line-height: 1.2;
+  word-wrap: break-word;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+
+  /* width: 100%; */
+  min-height: 100%;
+
+  /* prevent mobile scroll  */  
+  max-width: 100%;
+  overflow-x: hidden;  
+}
+
+/* elements box-sizing border-box */
+div, span, article, section, header, footer, aside, p, ul, li, fieldset, legend, label, a, nav, form, input, textarea, main {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border: 0;
+  vertical-align: middle;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+
+/* disable focus */
+:focus,
+a:focus {
+  outline: none;
+}
+
+/* element skill */
+.hidden-visually {
+  position: absolute;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0;
+  padding: 0;
+  height: 1px;
+  width: 1px;
+  clip: rect(0 0 0 0);
+  clip-path: inset(100%);
+}
