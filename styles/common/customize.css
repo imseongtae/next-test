@@ -5,7 +5,7 @@
 */
 
 html {
-  /* font-family: "Noto Sans KR", helvetica, "Apple SD Gothic Neo", sans-serif; */  
+  /* font-family: "Noto Sans KR", helvetica, "Apple SD Gothic Neo", sans-serif; */
   font-family: 'Malgun Gothic', '맑은 고딕', helvetica, "Apple SD Gothic Neo", sans-serif;
   line-height: 1.2;
   word-wrap: break-word;
@@ -22,9 +22,9 @@ html, body {
   /* width: 100%; */
   min-height: 100%;
 
-  /* prevent mobile scroll  */  
+  /* prevent mobile scroll  */
   max-width: 100%;
-  overflow-x: hidden;  
+  overflow-x: hidden;
 }
 
 /* elements box-sizing border-box */
