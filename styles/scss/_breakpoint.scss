@@ -1,0 +1,32 @@
+// Break point
+$mobile: 426px;
+$tablet: 769px;
+$laptop: 1025px;
+// 좌우 padding 값 고려하여 1200으로 설정, 좌우 padding 10px을 준다면 1180이 됨
+// 12 그리드에 거터 값은 20!
+$desktop: 1201px;
+
+// mixins
+@mixin mobile {
+  @media (min-width: #{$mobile}) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (min-width: #{$tablet}) {
+    @content;
+  }
+}
+
+@mixin laptop {
+  @media (min-width: #{$laptop}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: #{$desktop}) {
+    @content;
+  }
+}
