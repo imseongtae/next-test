@@ -1,0 +1,30 @@
+.global-width {
+  width: 100%;
+  min-height: calc(100vh - 144px);
+  background-color: #f6f6f6;
+}
+
+.container {
+  max-width: 1180px;
+  width: 100%;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.link-wrapper {
+  width: 100%;
+}
+
+.link {
+  width: 148px;
+  margin-top: 36px;
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  font-size: 14px;
+}
