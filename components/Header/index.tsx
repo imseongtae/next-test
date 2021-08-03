@@ -7,8 +7,8 @@ const Header = () => {
       <div className={styles.container}>
         <h1 className={styles.logo}>
           <a>
-            <span className="hidden-visually">J.dit</span>
-            <img src="/logo.png" alt="logo" />
+            <span className="hidden-visually">Logo</span>
+            <img src="/vercel.svg" alt="logo" />
           </a>
         </h1>
       </div>
